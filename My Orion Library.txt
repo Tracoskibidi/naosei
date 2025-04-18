@@ -19,7 +19,7 @@ local OrionLib = {
 			Stroke = Color3.fromRGB(50, 0, 80),            -- Contorno: roxo bem escuro
 			Divider = Color3.fromRGB(70, 0, 110),          -- Divisores: roxo escuro mais visível
 			Text = Color3.fromRGB(120, 70, 160),           -- Texto: roxo escuro suave
-			TextDark = Color3.fromRGB(90, 50, 120)         -- Texto secundário: roxo ainda mais escuro
+			TextDark = Color3.fromRGB(20, 20, 20)         -- Texto secundário: roxo ainda mais escuro
 		}
 	},
 	SelectedTheme = "Default",
