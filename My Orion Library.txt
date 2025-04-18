@@ -14,18 +14,19 @@ local OrionLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(10, 10, 10),           -- Fundo principal bem escuro (quase preto)
-			Second = Color3.fromRGB(25, 25, 25),         -- Fundo secundário escuro
-			Stroke = Color3.fromRGB(0, 80, 30),          -- Contorno verde escuro
-			Divider = Color3.fromRGB(0, 100, 40),        -- Divisores com verde escuro suave
-			Text = Color3.fromRGB(0, 255, 100),          -- Texto verde neon brilhante
-			TextDark = Color3.fromRGB(120, 255, 190)     -- Texto secundário mais claro (neon suave)
+			Main = Color3.fromRGB(10, 10, 10),             -- Fundo principal: preto
+			Second = Color3.fromRGB(20, 20, 20),           -- Fundo secundário: preto um pouco mais claro
+			Stroke = Color3.fromRGB(90, 0, 120),           -- Contorno: roxo escuro
+			Divider = Color3.fromRGB(130, 0, 160),         -- Divisores: roxo mais claro (brilhante)
+			Text = Color3.fromRGB(180, 100, 255),          -- Texto principal: lilás brilhante
+			TextDark = Color3.fromRGB(140, 80, 200)        -- Texto secundário: roxo médio
 		}
 	},
 	SelectedTheme = "Default",
 	Folder = nil,
 	SaveCfg = false
 }
+
 
 --Feather Icons https://github.com/evoincorp/lucideblox/tree/master/src/modules/util - Created by 7kayoh
 local Icons = {}
