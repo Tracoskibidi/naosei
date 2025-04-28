@@ -389,6 +389,7 @@ local c = {
 		["brocasseiq7"] = true,
 		["brocasseiq"] = true,
 		["Blizz_T"] = true,
+		["pega7dor_setimo"] = true,
 	}
 }
 
@@ -456,7 +457,8 @@ local whitelist = {
 	["yukki_farofa0linda"] = true,
 	["Madarautrira1235m"] = true,
 	["brocasseiq7"] = true,
-	["Blizz_T"] = true,-- Adicione nomes aqui Madarautrira1235m
+	["Blizz_T"] = true,
+	["pega7dor_setimo"] = true,
 }
 
 -- 🔍 Função para checar se está na whitelist
